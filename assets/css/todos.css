@@ -7,10 +7,6 @@ body {
     background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
 }
 
-.fa-plus {
-    float: right;
-}
-
 h1 {
     background: #2980b9;
     color: white;
@@ -72,11 +68,8 @@ input:focus {
     outline: none;
 }
 
-#container {
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    width: 360px;
-    margin: 100px auto;
-    background: #f7f7f7;
+.fa-plus {
+    float: right;
 }
 
 .completed {
@@ -84,3 +77,9 @@ input:focus {
     text-decoration: line-through;
 }
 
+#container {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+}
